@@ -21,3 +21,9 @@ D13: pd.cut() + sns.barplot(px,py) --->離散x長條圖
 D14: 根據不同的 HOUSETYPE_MODE 對 AMT_CREDIT 繪製 Histogram  
      資料集.loc[(資料集['HOUSETYPE_MODE'] == unique_house_type[i]), 'y欄位'].hist() --->直方圖  
 D15: 隨機np矩陣, sns.heatmap() , sns.PairGrid()  
+D16: logistic regression  
+
+### Feature Engineering
+D17: 簡介FE  
+D18: 不同feature type (int64, float64, object) 的 敘述統計資料  
+D19: 查詢各欄位空缺值數量、觀察替換不同補缺方式(&不同特徵縮放方式)對特徵的影響  
