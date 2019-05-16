@@ -9,7 +9,7 @@ D04: pandas
 D05: data['column name'].hist()  
      data.loc[data['column name']<data['column name'].quantile(0.99)]['column name'].hist()  
 D06: Outlier, Emprical CDF畫圖  
-D07: NAs, 標準化Z, mode()
+D07: NAs, 標準化Z, mode()  
 D08: pd.cut() 分組, groupby  
 
 ### EDA 
@@ -27,3 +27,7 @@ D16: logistic regression
 D17: 簡介FE  
 D18: 不同feature type (int64, float64, object) 的 敘述統計資料  
 D19: 查詢各欄位空缺值數量、觀察替換不同補缺方式(&不同特徵縮放方式)對特徵的影響  
+D20: 調整或去除離群值
+D21: 當離群資料比例太高，或平均值沒有代表性時(平均薪資)，可以考慮去除偏態  
+去除偏態包含 : 對數去偏、方跟去偏以及分布去偏  
+用 box-cox 分布去偏時，需注意λ介於 0 到 0.5 之間，並且要注意轉換前的數值不可小於等於0(否則須先用.loc處理)
