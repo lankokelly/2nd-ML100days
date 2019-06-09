@@ -37,3 +37,7 @@ D26: 特徵組合(經度、緯度) ---> cos(緯度40.75度) : 1 = 0.75756 : 1 --
 D33-38 線性回歸、羅吉斯模型基本觀念與套用、評估指標如:f1-measure、kFold資料切分方法等等  
 D39: LASSO 為 Linear Regression 加上 L1 ,Ridge 為 Linear Regression 加上 L2 。超參數α 調整正則化的強度 (LASSO、Ridge 就是回歸模型+不同的正則化函數)  
 D40: LASSO、Ridge code  
+D41: 決策樹Gain越大代表切分後的兩群資料，群內相似程度越高  
+D42: DecisionTreeClassifier()  
+D43: 隨機森林概念  
+D44: 隨機森林code
